@@ -60,6 +60,7 @@ class ProductController extends Controller
 
     public function update(Request $request, $id)
     {
+        
         //validation
         $this->validate($request,[
             'Title'=>'required',
